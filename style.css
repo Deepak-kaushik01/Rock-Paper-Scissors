@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    border:0.5px solid black;
+    box-shadow: 0.5px 0.5px 10px;
+    cursor: pointer;
+}
+.btn-1 {
+    background-color: gray;
+}
+.btn-2 {
+    background-color: antiquewhite;
+}
+.btn-3{
+    background-color: cadetblue;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.scores p {
+    font-size: 1.4rem;
+}
+
+.hand-icons span{
+    font-size: 10rem; 
+}
